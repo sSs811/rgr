@@ -110,7 +110,7 @@
 				</ItemsControl.DataTemplates>
 			</ItemsControl>
 			-->
-			<DataGrid Name="DataTable" Items="{Binding $parent[Window].DataContext.Data.Dogs}"
+			<DataGrid Name="DataTable" Items="{Binding $parent[Window].DataContext.Data.Horses}"
 					  AutoGenerateColumns="True" CanUserSortColumns="True"/>
 		</ScrollViewer>
 		<Border Classes="br1" Grid.Row="2" BorderThickness="0,0,0,0">
